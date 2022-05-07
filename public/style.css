@@ -444,9 +444,9 @@ p {
 }
 
 .welcome-thumb {
-    width: 45%;
+    width: 33%;
     position: absolute;
-    bottom: -130px;
+    bottom: 92px;
     right: 85px;
     z-index: 9;
 }
@@ -799,7 +799,8 @@ p {
 -------------------------- */
 
 .app_screenshots_slides {
-    padding: 0 6%;
+    padding: 0 5%;
+    height: 400px;
 }
 
 .app_screenshots_slides .single-shot {
@@ -807,9 +808,16 @@ p {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
-    transform: scale(0.85)
+    transform: scale(0.85);
+    height: 250px;
+    width: 300px;
 }
 
+.app_screenshots_slides .single-shot img {
+    height: 100%;
+    width: 650px;
+    
+}
 .app_screenshots_slides .center .single-shot {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -919,6 +927,11 @@ p {
 /* --------------------------
 :: 10.0 Testimonials Area CSS
 -------------------------- */
+
+.single-feature {
+    margin-bottom: 50px;
+    padding: 1em;
+}
 
 .clients-feedback-area .client-name > h5 {
     color: #5b32b4;

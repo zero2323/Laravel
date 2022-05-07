@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/xpertpharm', function () {
+    return view('xpertpharm');
+});
+
+Route::get('/xpertassisst', function () {
+    return view('xpertassisst');
+});
+
+Route::get('/tarifs', function () {
+    return view('tarifs');
+});
+
